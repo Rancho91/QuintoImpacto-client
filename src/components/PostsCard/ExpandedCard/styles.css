@@ -1,0 +1,88 @@
+.posts-cards-inner-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.posts-card-text-container {
+  flex: 0.75;
+  min-height: 96px;
+}
+
+.shortText {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 7px 0;
+  text-align: inherit;
+  margin: unset;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 304px;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.posts-card-button-container {
+  flex: 0.25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.see-more {
+  width: 152px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #4e169d;
+}
+
+/* .shortText {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 7px;
+  text-align: unset !important;
+  margin: unset;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 304px;
+  height: auto;
+  box-sizing: border-box;
+  border: 1px solid cyan;
+}
+
+.longText {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 7px;
+  text-align: unset !important;
+  max-width: 304px;
+  margin: auto;
+}
+
+.postsCards-expand-div > .postsCards-collapse-button {
+  border: 1px solid black;
+}
+
+.see-more {
+  width: 152px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #4e169d;
+}
+ */

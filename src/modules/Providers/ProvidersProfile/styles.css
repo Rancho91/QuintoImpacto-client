@@ -1,0 +1,64 @@
+.providers-profile-screen {
+  min-height: 100vh;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.providers-profile-name-container {
+  width: 100%;
+  text-align: center;
+  margin: 40px 0 32px 0;
+}
+
+.providers-profile-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.providers-profile-tabs-container {
+  margin: 32px 0 40px;
+  width: 100%;
+  max-width: 100vw;
+}
+
+@media screen and (min-width: 800px) {
+  .providers-profile-tabs-container {
+    margin: 32px auto;
+    width: 65%;
+  }
+}
+
+.providers-profile-tabs {
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+}
+
+.providers-profile-tabs .providers-profile-tabs-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.providers-tabpanel > section:first-of-type {
+  min-height: max-content;
+  padding: 32px 0 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.providers-profile-demo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}

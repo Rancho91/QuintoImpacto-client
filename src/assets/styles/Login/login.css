@@ -1,0 +1,22 @@
+#register, #signin {
+    /* border: 1px solid black; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/src/assets/backgrounds/nature-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #signin:before, #register:before {
+      content:'';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0,0,0,0.5);
+  }
+  
+  

@@ -1,0 +1,47 @@
+div > p{
+    padding: 0px; 
+}
+
+.providers-form-screen{
+    display: flex;
+    margin-top: 90px;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.providers-form-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.providers-form-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.providers-form-inputBox{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-textfield{
+    width: 328px !important;
+    height: 28px;
+    margin-bottom: 35px !important;
+    font-weight: 500 !important; 
+}
+
+.input-error label{
+    color: rgb(255, 0, 0)!important;
+}
+
+.ok-button{
+    background-color: #4E169D!important;
+}

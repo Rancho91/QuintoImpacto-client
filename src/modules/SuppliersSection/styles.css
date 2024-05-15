@@ -1,0 +1,83 @@
+.suppliers-section-main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+}
+
+.recommendations-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+  text-align: start;
+  margin-bottom: 2px;
+}
+
+@media screen and (max-width: 600px) {
+  .recommendations-section {
+    text-align: start;
+  }
+}
+
+.recommendations-title {
+  width: 253px;
+  height: 25px;
+}
+
+.recommendations-subtitle {
+  width: 238px;
+  height: 25px;
+}
+
+.suppliers-section-cards-background {
+  max-width: 100%;
+  position: relative;
+  z-index: 0;
+  min-height: 350px;
+}
+
+.suppliers-section-cards-background::before {
+  content: "";
+  width: 100%;
+  height: 60vw;
+  position: absolute;
+  border-bottom-left-radius: 100%;
+  background-color: #fafafa;
+  top: -5px;
+  right: 0;
+  z-index: 0;
+}
+
+.suppliers-cards-grid {
+  z-index: 2;
+  min-height: 350px;
+  padding: 24px 16px 8px;
+  display: grid;
+  align-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(152px, 1fr));
+  grid-auto-rows: minmax(244px, max-content);
+  gap: 24px;
+}
+
+@media screen and (min-width: 600px) {
+  .recommendations-section {
+    justify-content: center;
+    text-align: center;
+  }
+  .suppliers-section-cards-background::before {
+    height: 17vw;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .recommendations-title {
+    width: 100%;
+  }
+  .recommendations-subtitle {
+    width: 100%;
+  }
+  .suppliers-cards-grid {
+    max-width: 800px;
+    margin: 16px auto;
+  }
+}

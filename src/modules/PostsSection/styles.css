@@ -1,0 +1,33 @@
+.posts-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.posts-section-title > .title {
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 0;
+}
+
+.posts-section-title h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.posts-section-button {
+  margin: 20px;
+  padding: 20px;
+  width: 184px;
+  height: 40px;
+  cursor: pointer;
+}
+
+@media (min-width: 1008px) {
+  .posts-section-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    flex-wrap: wrap;
+  }
+}

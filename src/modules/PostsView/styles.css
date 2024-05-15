@@ -1,0 +1,32 @@
+.posts-view-background-container {
+  max-width: 100%;
+  min-height: max-content;
+  position: relative;
+  z-index: 0;
+}
+
+.posts-view-background-container::after {
+  content: "";
+  width: 100%;
+  height: 60vw;
+  position: absolute;
+  border-bottom-left-radius: 100%;
+  background-color: #fafafa;
+  top: -5px;
+  right: 0;
+  z-index: 0;
+}
+
+.posts-view-grid {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  min-height: max-content;
+  z-index: 1;
+}
+
+@media screen and (min-width: 600px) {
+  .posts-view-background-container::after {
+    height: 30vw;
+  }
+}

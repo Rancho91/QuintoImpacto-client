@@ -1,0 +1,103 @@
+.container{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.labelText{
+    font-size: 16px ;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.inputText{
+    width: 80%;
+font-weight: 500;
+font-size: 16px; 
+line-height: 24px;   
+border: 1px solid #222222;
+border-radius: 4px;
+padding: 16px;
+}
+
+.containerTextInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.containerTextarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.divTextarea{
+    width: 100%;
+}
+
+.textarea{
+    width: 80%;
+    resize: none;
+    overflow-y: hidden;
+    min-height: 200px;
+    height: auto;
+    font-weight: 500;
+    font-size: 16px; 
+    line-height: 24px;   
+    border: 1px solid #222222;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.textareaLabel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.containerIndexFile{
+    width: 85%;
+    display: flex;
+    justify-content: end;
+    /* margin-top: 190px; */
+}
+
+.imageContainer{
+    margin-top: 190px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.imageStyle{
+    width: 100%;
+}
+
+.custom-textfield{
+    width: 328px !important;
+    height: 28px;
+    margin-bottom: 35px !important;
+    font-weight: 500 !important; 
+}
+
+.input-error label{
+    color: rgb(255, 0, 0)!important;
+}

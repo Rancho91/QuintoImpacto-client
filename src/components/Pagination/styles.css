@@ -1,0 +1,8 @@
+.custom-pagination-stack {
+  margin: 15px 0;
+  padding: 5px 0;
+}
+
+.custom-pagination-stack > nav {
+  background-color: transparent;
+}

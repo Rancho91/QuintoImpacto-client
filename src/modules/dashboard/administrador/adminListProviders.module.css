@@ -1,0 +1,126 @@
+.container {
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleContainer {
+  margin: 40px 0 24px;
+  width: 100%;
+  text-align: center;
+}
+
+.tabsContainer {
+  width: 100%;
+  max-width: 100vw;
+}
+
+@media screen and (min-width: 800px) {
+  .tabsContainer {
+    margin: 0 auto;
+    width: 70%;
+  }
+}
+
+.adminBoxTabs {
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+}
+
+.adminBoxTabs > .adminTabsNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 48px;
+}
+
+.adminTabsNav .adminTab {
+  min-width: 128px;
+  padding: 8px 5.5px 18px;
+  color: #505050;
+}
+
+@media screen and (min-width: 800px) {
+  .adminTab {
+    width: calc(100% / 3);
+  }
+}
+
+.adminTabpanel {
+  min-height: max-content;
+  padding-bottom: 21px;
+}
+
+/* .ContainerlistButtons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  border-bottom: solid 1px;
+}
+
+.buttonTypeStatus {
+  background-color: white;
+  color: #222222;
+}
+
+.buttonSelected {
+  border-bottom: solid 2px;
+  border-radius: 0;
+  border-color: #4e169d;
+}
+
+.card {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eaeaea;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.containerName {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: space-around;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 18px;
+  color: #4e169d;
+  padding-bottom: 0px;
+}
+
+.subName {
+  font-weight: 400;
+  font-size: 16px;
+  color: #222222;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #00a364;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.buttonCard {
+  background-color: #eaeaea;
+  color: #222222;
+}
+ */

@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    gap: 20px;
+    
+    
+}
+
+.boxVisualizacion{
+    display: flex;
+    flex-direction: row;
+    width:90%;
+    justify-content: space-between;
+    border: 1px solid #4E169D;
+    border-radius: 8px;
+    
+}
+
+.publiucation{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    gap: 10px;
+}
+
+.vistas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    gap: 10px;
+}
+
+.count{
+    color: #4E169D;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 22px;
+    color: #222222;
+}

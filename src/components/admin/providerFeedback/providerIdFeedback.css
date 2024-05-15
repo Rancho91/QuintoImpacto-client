@@ -1,0 +1,35 @@
+.custom-textfield{
+    width: 328px !important;
+    height: 28px;
+    margin-bottom: 35px !important;
+    font-weight: 500 !important; 
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+.container-select{
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    justify-content: space-between;
+    width: 150px;
+    text-align: right;  
+    background:#EAEAEA
+}
+
+.subtitle-category{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.title{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    color: rgba(78, 22, 157, 1);
+}

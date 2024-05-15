@@ -1,0 +1,46 @@
+.dots{
+  margin-bottom: 12px;
+}
+
+.carrousel-img {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrousel-img img {
+  width: 100%;
+  max-width: 304px;
+  height: 140px;
+  position: relative;
+  object-fit: cover;
+  max-height: 140px;
+
+}
+
+.slick-arrow {
+  color: black !important;
+  /* position: absolute; */
+}
+
+.slick-next {
+  right: 25px !important;
+  color: #4e169d !important;
+}
+
+.slick-next::before {
+  color: #4e169d !important;
+}
+
+.slick-prev {
+  left: 25px !important;
+  z-index: 10;
+  color: #4e169d !important;
+}
+
+.slick-prev::before {
+  left: 25px !important;
+  /* z-index: 10; */
+  color: #4e169d !important;
+}
+

@@ -1,0 +1,12 @@
+.chatbot-action-button-container {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 2;
+}
+
+.chatbot-action-button-container .chatbot-action-button {
+  width: 50px;
+  height: 50px;
+  background-color: #d2d2d2;
+}

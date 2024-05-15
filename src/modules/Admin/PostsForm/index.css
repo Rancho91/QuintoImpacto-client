@@ -1,0 +1,104 @@
+#load_post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#load_post h3 {
+    text-align: center;
+    padding: 0 10px;
+    margin-top: 30px;
+}
+
+#load_post h2, #load_post h3 {
+    font-weight: 600;
+}
+
+.color {
+    color: #4E169D;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+form > div {
+    margin: 0 8px;
+}
+
+#upload_img_section > label + div {
+    margin-top: 10px;
+}
+
+.req_img {
+    font-size: 12px;
+    padding: 0 10px;
+    text-align: start;
+}
+
+.btn_upload {
+    background-color: #4E169D;
+    color: white;
+    padding: 10px 20px;
+    width: 150px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+.btn_upload > img {
+    width: 20px;
+    padding-right: 20px;
+}
+
+.submit_btn {
+    padding: 10px 95px;
+    font-weight: 400;
+}
+
+.submit_btn:disabled {
+    cursor: not-allowed;
+    background-color: #505050;
+}
+
+.uploaded-image{
+    width: 340px;
+    min-height: 140px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.img_container {
+    position: relative;
+}
+
+/*Botones para editar imagenes*/
+
+.btn_edit_img {
+    background-color: #222222;
+    opacity: 0.7;
+    position: absolute;
+    right: 47px;
+    top: 22px;
+    padding: 5px;
+}
+
+.btn_remove_img {
+    background-color: #222222;
+    opacity: 0.7;
+    position: absolute;
+    right: 10px;
+    top: 22px;
+    padding: 5px;
+}
+
+.Mui-error {
+    color: red; 
+  }

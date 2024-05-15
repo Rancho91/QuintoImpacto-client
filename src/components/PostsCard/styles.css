@@ -1,0 +1,42 @@
+.postsCards-section {
+  background-color: #eaeaea;
+  width: 328px;
+  height: auto;
+  display: flex;
+  min-height: 380px;
+  flex-direction: column;
+  border-radius: 16px;
+  margin: 16px 25px;
+  z-index: 1;
+}
+
+.buttonEditarOcultar {
+  background-color: #eaeaea;
+}
+.buttonTitleSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.postsCards-date-container {
+  /* border: 1px solid magenta; */
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 10px 0px;
+}
+
+.postsCards-section h1 {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px;
+}
+
+.postsCards-section h2 {
+  margin: 7px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 7px;
+}

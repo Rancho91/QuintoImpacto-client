@@ -1,0 +1,33 @@
+.impact-enterprise-section {
+  max-width: 328px;
+  margin: 30px auto 0;
+  border-top: 1px solid #4e169d;
+  border-bottom: 1px solid #4e169d;
+  box-sizing: border-box;
+  min-height: 192px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 0px;
+}
+
+.impact-enterprise-title {
+  width: 260px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  text-align: center;
+  color: #4e196d;
+  margin: 0;
+}
+
+.impact-enterprise-desc {
+  width: 328px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #222222;
+  margin: 0;
+}

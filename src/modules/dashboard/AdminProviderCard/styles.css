@@ -1,0 +1,36 @@
+.admin-provider-card {
+  margin: 0 auto;
+  width: 328px;
+  height: 72px;
+  border-radius: 8px;
+  display: flex;
+  padding: 8px 10px 8px 16px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.provider-card-title-container {
+  max-width: 200px;
+  min-width: 190px;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.circle {
+  width: 16px;
+  height: 16px;
+  border: 1px solid lightgray;
+  margin-right: 4px;
+  border-radius: 50%;
+}
+
+.provider-card-button-container {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

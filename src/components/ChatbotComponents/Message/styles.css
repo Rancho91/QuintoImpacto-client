@@ -1,0 +1,81 @@
+.message-wrapper {
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.message-inner-container {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  padding: 5px 0;
+  justify-content: space-around;
+}
+
+.message-avatar-container {
+  display: flex;
+}
+
+.message-avatar-container > .message-avatar {
+  background-color: rgba(78, 22, 157, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-content-container {
+  flex: 0.9;
+  background-color: #d2d2d2;
+  border-radius: 8px;
+  max-width: 280px;
+  word-wrap: break-word;
+  padding: 2px 10px;
+  position: relative;
+}
+
+.message-content-container::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 3px;
+  left: -7px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 10px solid #d2d2d2;
+}
+
+.message-wrapper.user > .message-inner-container {
+  flex-direction: row-reverse;
+  /* min-height: 200px; */
+}
+
+.message-content-container.user::after {
+  right: -7px;
+  left: auto;
+  border-right: none;
+  border-left: 10px solid #d2d2d2;
+}
+
+.buttonQuestion {
+  background-color: #4e169d;
+  font-size: 14px;
+  text-align: left;
+  padding: 5px;
+  border-radius: 4px;
+  margin: 7px;
+}
+
+.buttonQuestionDisable {
+  background-color: #b3a4c9;
+  font-size: 14px;
+  text-align: left;
+  padding: 2px;
+  border-radius: 4px;
+  margin: 7px;
+}
+
+.buttonQuestion:hover {
+  background-color: #4e169d9f;
+}

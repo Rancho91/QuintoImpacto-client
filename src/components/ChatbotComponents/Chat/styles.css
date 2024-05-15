@@ -1,0 +1,38 @@
+.chat-section {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  display: flex;
+}
+
+.chat-layout {
+  width: 100%;
+  overflow: hidden;
+}
+
+.chat-layout > .chat-header {
+  background: rgb(78, 22, 157);
+  background: linear-gradient(-45deg, rgba(78, 22, 157, 1) 25%, rgba(0, 163, 100, 1) 100%);
+  flex: 0.125;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.chat-title {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.chat-layout > .chat-content {
+  scroll-behavior: smooth;
+  background-color: #fafafa;
+  flex: 0.885;
+  display: grid;
+  grid-template-columns: minmax(100%, 1fr);
+  grid-auto-rows: max-content;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

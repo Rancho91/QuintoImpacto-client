@@ -1,0 +1,53 @@
+.buttonImput{
+    background-color: #4E169D;
+    padding: 16px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.inputFile{
+    background-color: #4E169D;
+    border: none;
+    display: none;
+    padding: 10px 15px; /* Añadir espaciado interno */
+    border-radius: 5px; /* Añadir bordes redondeados */
+    cursor: pointer; 
+}
+
+.labelText{
+    color:#FAFAFA;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.validContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.validText{
+    color: #222222;
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 12px;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.editStyle{
+    background-color: rgba(34, 34, 34, 0.6);
+    padding: 12px;
+    border-radius: 100px;
+    }
+
+    .inputFileEdit{
+        border: none;
+        display: none;
+    }

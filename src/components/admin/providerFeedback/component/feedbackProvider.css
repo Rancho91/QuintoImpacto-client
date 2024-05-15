@@ -1,0 +1,64 @@
+.container-feedback {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 12px;
+  border: 1px solid rgba(78, 22, 157, 1);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  margin-bottom: 50px;
+}
+
+.container-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  background-color: rgba(78, 22, 157, 1);
+  color: #fafafa;
+}
+
+.editar-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fafafa;
+}
+
+.svg {
+  padding-left: 8px;
+  padding-right: 2px;
+}
+
+.feedback-text-container {
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.feedback-text-container {
+  max-width: 300px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.custom-textfield {
+  border: none;
+}
+
+.edit-box {
+  background-color: #0e0e0e;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.text-edit {
+  font-weight: 700;
+  font-size: 16px;
+  color: #222222;
+  line-height: 24px;
+  text-align: start;
+}

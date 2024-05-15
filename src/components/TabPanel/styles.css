@@ -1,0 +1,7 @@
+.custom-tabpanel {
+  width: 100%;
+}
+
+.custom-tabpanel .custom-tabpanel-children-container {
+  min-height: 600px;
+}

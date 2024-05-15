@@ -1,0 +1,57 @@
+.expanded-card-dialog .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  width: 328px;
+  max-height: 584px;
+  border-radius: 16px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  background-color: #eaeaea;
+}
+
+.expanded-card-header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.expanded-card-inner-wrapper {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.expanded-card-category-container {
+  margin-top: 8px;
+  width: 40%;
+  border: 1px solid #00a364;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-color: #fafafa;
+  text-align: center;
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+
+.expanded-card-category {
+  color: #4e169d;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+}
+
+.expanded-card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  border-top-right-radius: 0px;
+}
+
+.expanded-card-title-container {
+  border: 2px solid red;
+  
+}
